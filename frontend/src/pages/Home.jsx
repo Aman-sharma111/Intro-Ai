@@ -49,7 +49,7 @@ const Home = () => {
     if (!title) return
 
     // const response = await axios.post("https://cohort-1-project-chat-gpt.onrender.com/api/chat"
-    const response = await axios.post("http://localhost:3000/api/chat/", {
+    const response = await axios.post("https://intro-ai.onrender.com/api/chat/", {
       title
     }, {
       withCredentials: true
@@ -63,13 +63,13 @@ const Home = () => {
   useEffect(() => {
 
     // axios.get("https://cohort-1-project-chat-gpt.onrender.com/api/chat", { withCredentials: true })
-       axios.get("http://localhost:3000/api/chat/",{withCredentials: true})
+       axios.get("https://intro-ai.onrender.com/api/chat/",{withCredentials: true})
       .then(response => {
         dispatch(setChats(response.data.chats.reverse()));
       })
 
     // const tempSocket = io("https://cohort-1-project-chat-gpt.onrender.com"
-       const tempSocket = io("http://localhost:3000", {
+       const tempSocket = io("https://intro-ai.onrender.com", {
       withCredentials: true,
     })
 
@@ -123,7 +123,7 @@ const Home = () => {
   const getMessages = async (chatId) => {
 
     // const response = await axios.get(`https://cohort-1-project-chat-gpt.onrender.com/api/chat/messages/${chatId}`, { withCredentials: true })
-       const response = await axios.get(`http://localhost:3000/api/chat/messages/${chatId}`,  {withCredentials: true})
+       const response = await axios.get(`https://intro-ai.onrender.com/api/chat/messages/${chatId}`,  {withCredentials: true})
 
     console.log("Fetched messages:", response.data.messages);
 

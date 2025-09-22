@@ -19,7 +19,7 @@ const Register = () => {
         console.log(form);
 
         // axios.post("https://cohort-1-project-chat-gpt.onrender.com/api/auth/register"
-           axios.post("http://localhost:3000/api/auth/register", {
+           axios.post("https://intro-ai.onrender.com/api/auth/register", {
             email: form.email,
             fullName: {
                 firstName: form.firstname,
