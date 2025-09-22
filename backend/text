@@ -1,0 +1,34 @@
+vectors = vectors is a array of numbers 
+
+.In this vectors the range of numbers is -1 to +1.
+
+.vectors is that simple things which is made by words which we write in prompt only such simple things and we give pormpt to AI and it is used is long term memory
+and this in vectors array the number are 1024,3072,768 etc 
+
+
+tokenization -> is the thing which is if we give pormpt then it convert this prompt into small senteneces and remove unneccasary parts like-the , this , to , is , a , ing , on and many more.
+
+flow -> flow of how a AI generate a response.
+
+propmt - the car is running on the highway at speed 140 km/highway
+
+-tokenization-(remove unneccasary words)
+
+-car run highway speed 140 km/h
+
+-embeding(convert remaining text into vectors)
+
+-gemini
+
+-outpue
+
+short term memory -> mltb kam samay ki chize yaad hogi lekin sab kuch yaad hoga acche sai ye short term memory hoti hai.
+
+long term memory -> mtlb ki bhaut phele ki chize yaad hogi lenkin ache sai nhi hogi halka - halka ya kuch part yaad hoga complete tarah sai yaad nhi hoga ye long term memory hoti hai.
+
+And we use 768 vectors method instead of 1024 or 3024 because of we buy these methods and it has very costly methods and these 768 , 1024 etc method are called over implementation method.
+
+
+
+we convert our prompt into vectors because of stored in long term memory and the reason behind that is first of all we give our input means propmt then it convert into vectors and the vectors value give in vector database and stored in long term memory.
+

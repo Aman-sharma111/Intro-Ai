@@ -1,0 +1,15 @@
+code . -r
+
+
+create the Home page now,
+
+the home contain the chat screen where user can send messages to ui and get respnse from the AI.
+
+
+-left sidebar of the screen contain the previous chat[for desktop view]
+
+make the UI responsive {mobile first approach}
+
+create  state variables for rendering chat messages, user input and previous chats
+
+use theme.css file for  styling
